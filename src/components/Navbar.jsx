@@ -8,16 +8,17 @@ import {
   FiUser, 
   FiSettings,
   FiBell,
-  FiUsers
+  FiUsers,
+  FiMic
 } from 'react-icons/fi';
 
 const Navbar = () => {
   const navItems = [
     { path: '/', icon: FiHome, label: 'Home' },
     { path: '/chat', icon: FiMessageCircle, label: 'Chat' },
+    { path: '/voice-ai', icon: FiMic, label: 'Voice AI' },
     { path: '/mood', icon: FiHeart, label: 'Mood' },
     { path: '/breaking-silence', icon: FiUsers, label: 'Community' },
-    { path: '/reminders', icon: FiBell, label: 'Reminders' },
     { path: '/profile', icon: FiUser, label: 'Profile' }
   ];
 

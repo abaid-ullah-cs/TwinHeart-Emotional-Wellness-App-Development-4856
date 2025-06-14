@@ -1,7 +1,7 @@
 {
   "name": "twinheart-app",
   "private": true,
-  "version": "2.0.0",
+  "version": "3.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -20,7 +20,10 @@
     "@stripe/stripe-js": "^2.4.0",
     "@stripe/react-stripe-js": "^2.4.0",
     "axios": "^1.6.2",
-    "uuid": "^9.0.1"
+    "uuid": "^9.0.1",
+    "web-audio-api": "^0.2.2",
+    "recordrtc": "^5.6.2",
+    "lamejs": "^1.2.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
